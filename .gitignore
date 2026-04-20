@@ -1,0 +1,43 @@
+# Virtual environments
+.venv/
+.venv_gpu/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+data/
+prepared_balanced_nilm/
+prepared_shared_nilm/
+checkpoints/
+
+*.csv
+*.csv.gz
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+*.log
+
+!requirements.txt
+!README.md
